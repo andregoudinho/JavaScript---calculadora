@@ -1,12 +1,29 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <button onclick="calculadora()">calculadora</button>
 
-    <script src="scripts/calculadora.js"></script>
+<body>
+
+    <div class="container">
+        <h2>Calculadora</h2>
+
+        <button onclick="somar()">Somar</button>
+        <button onclick="subtrair()">Subtrair</button>
+        <button onclick="multiplicar()">Multiplicar</button>
+        <button onclick="dividir()">Dividir</button>
+    </div>
+
+    <script src="scripts/soma.js"></script>
+    <script src="scripts/subtracao.js"></script>
+    <script src="scripts/multiplicacao.js"></script>
+    <script src="scripts/divisao.js"></script>
+
 </body>
+
 </html>

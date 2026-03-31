@@ -1,0 +1,21 @@
+body {
+    background: #dcdcdc;
+    text-align: center;
+    font-family: Arial;
+}
+
+.container {
+    background: #7f9f9a;
+    width: 250px;
+    margin: 150px auto;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
